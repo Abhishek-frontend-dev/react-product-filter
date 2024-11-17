@@ -4,21 +4,22 @@ import './App.css'
 function App() {
 
   const [defaultProduct] = useState([
-  { name: "Shirt", price: 250, category: "Clothing", available: true, Imagepath :"Images/shirt.jpg" },
-  { name: "Shoes", price: 5000, category: "Clothing", available: false, Imagepath :"Images/Shoes 2.jpg" },
-  { name: "Smartphone", price: 1000, category: "Electronics", available: true, Imagepath :"Images/nothing phone .jpg" },
-  { name: "Laptop", price: 15000, category: "Electronics", available: true, Imagepath :"Images/dellg155515featured.jpg" },
-  { name: "Fridge", price: 50000, category: "Home Appliances", available: false, Imagepath :"Images/lginstaviewproductphotos-8.jpg" },
-  { name: "Washing Machine", price: 35000, category: "Home Appliances", available: true , Imagepath :"Images/AdobeStock_613132570-scaled.jpeg" },
-  { name: "Shirt", price: 25, category: "Clothing", available: true, Imagepath :"Images/6c666bda-3b10-4448-bccf-c218879742911718016802144-Allen-Solly-Men-Shirts-6571718016801622-1.jpg"  },
-  { name: "Shoes", price: 50, category: "Clothing", available: false, Imagepath :"Images/Shoes.jpg" },
-  { name: "Smartphone", price: 700, category: "Electronics", available: true, Imagepath :"Images/google-pixel-9-pro-66d5e04002b15.jpg" },
-  { name: "Laptop", price: 1000, category: "Electronics", available: true, Imagepath :"Images/laptop.jpg" },
-  { name: "Fridge", price: 500, category: "Home Appliances", available: false, Imagepath :"Images/Fridge.jpg" },
-  { name: "Washing Machine", price: 300, category: "Home Appliances", available: true , Imagepath :"Images/Washing Machine.jpeg" }
+  { name: "Shirt", price: 250, category: "Clothing", available: true, Imagepath :"public/Images/shirt.jpg" },
+  { name: "Shoes", price: 5000, category: "Clothing", available: false, Imagepath :"public/Images/Shoes 2.jpg" },
+  { name: "Smartphone", price: 1000, category: "Electronics", available: true, Imagepath :"public/Images/nothing phone .jpg" },
+  { name: "Laptop", price: 15000, category: "Electronics", available: true, Imagepath :"public/Images/dellg155515featured.jpg" },
+  { name: "Fridge", price: 50000, category: "Home Appliances", available: false, Imagepath :"public/Images/lginstaviewproductphotos-8.jpg" },
+  { name: "Washing Machine", price: 35000, category: "Home Appliances", available: true , Imagepath :"public/Images/AdobeStock_613132570-scaled.jpeg" },
+  { name: "Shirt", price: 25, category: "Clothing", available: true, Imagepath :"public/Images/6c666bda-3b10-4448-bccf-c218879742911718016802144-Allen-Solly-Men-Shirts-6571718016801622-1.jpg"  },
+  { name: "Shoes", price: 50, category: "Clothing", available: false, Imagepath :"public/Images/Shoes.jpg" },
+  { name: "Smartphone", price: 700, category: "Electronics", available: true, Imagepath :"public/Images/google-pixel-9-pro-66d5e04002b15.jpg" },
+  { name: "Laptop", price: 1000, category: "Electronics", available: true, Imagepath :"public/Images/laptop.jpg" },
+  { name: "Fridge", price: 500, category: "Home Appliances", available: false, Imagepath :"public/Images/Fridge.jpg" },
+  { name: "Washing Machine", price: 300, category: "Home Appliances", available: true , Imagepath :"public/Images/Washing Machine.jpeg" }
 ]);
 
   const [products, setProducts] = useState(defaultProduct);
+
 const [minPrice, setMinPrice] = useState('');
 const [maxPrice, setMaxPrice] = useState('');
 const [category, setCategory] = useState('');
