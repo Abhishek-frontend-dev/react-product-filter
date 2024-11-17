@@ -19,7 +19,6 @@ function App() {
 ]);
 
   const [products, setProducts] = useState(defaultProduct);
-
 const [minPrice, setMinPrice] = useState('');
 const [maxPrice, setMaxPrice] = useState('');
 const [category, setCategory] = useState('');
